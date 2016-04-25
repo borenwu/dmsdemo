@@ -1,6 +1,7 @@
 import React from 'react';
 import {mount} from 'react-mounter'
 
+
 import Layout from '../imports/ui/layout/Layout.jsx'
 import SignUp from '../imports/ui/signup/Signup.jsx'
 import MainPage from '../imports/ui/mainpage/Mainpage.jsx'
@@ -9,6 +10,7 @@ import Task from '../imports/ui/task/Task.jsx'
 import Stat from '../imports/ui/stat/Stat.jsx'
 import Finance from '../imports/ui/finance/Finance.jsx'
 import Sidebar from '../imports/ui/sidebar/Sidebar.jsx'
+import Header from  '../imports/ui/header/Header.jsx'
 
 
 publicRoutes = FlowRouter.group({
@@ -28,6 +30,7 @@ publicRoutes.route('/mainpage', {
     name: 'mainpage',
     action: function () {
         mount(Layout,{
+            header:<Header/>,
             sidebar:<Sidebar/>,
             content:<MainPage/>
         })

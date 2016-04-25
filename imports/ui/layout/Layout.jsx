@@ -6,6 +6,7 @@ export default class Layout extends Component{
     render(){
         return(
             <div>
+                {this.props.header}
                 {this.props.sidebar}
                 {this.props.content}
             </div>

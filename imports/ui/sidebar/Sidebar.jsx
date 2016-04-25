@@ -26,8 +26,8 @@ export default class Sidebar extends Component{
         })
 
         return(
-            <div className="primary-sidebar">
-                <ul>
+            <div>
+                <ul className="side-nav fixed">
                     {rows}
                 </ul>
             </div>

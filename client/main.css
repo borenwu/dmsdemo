@@ -1,14 +1,15 @@
 /* CSS declarations go here */
 .primary-sidebar{
-    float: left;
-    position: absolute;
+    /*float: left;*/
+    /*position: absolute;*/
 }
 
 .main-content{
-    position: relative;
-    margin-left: 201px;
+    /*position: relative;*/
+    /*margin-left: 201px;*/
 }
 
 .link{
-    padding: 10px;
+    /*padding: 10px;*/
 }
+
