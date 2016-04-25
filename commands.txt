@@ -1,0 +1,5 @@
+meteor npm install --save react react-dom
+meteor npm install --save react-mounter
+meteor add kadira:flow-router
+meteor add accounts-password
+meteor add materialize:materialize
